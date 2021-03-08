@@ -18,7 +18,7 @@ def searcher():
     for i in dif_ip_list:
         ip_lst.append(ip_s.count(i))
     maxim = max(ip_lst)
-    print(f'ip: {dif_ip_list[ip_lst.index(maxim)]} -- {maxim}')
+    print(f'ip: {dif_ip_list[ip_lst.index(maxim)]}-- {maxim}')
 
 
 searcher()
